@@ -1,0 +1,17 @@
+
+from tkinter import N
+
+
+PYTHON = {
+    'float' :'uma variável que representa os números reais', 
+    'input' : 'pedir a um usuário para inserir alguns dados e retorna um referência aos dados na forma de uma string',
+    'STRING' : 'são conjuntos de caracteres de texto que podem ser compreendidos como representações de informações escritas dentro de um código',
+    'PYTHON' : 'é uma linguagem de programação de alto nível, ou seja, com sintaxe mais simplificada e próxima da linguagem humana',
+    'FOR ' : 'é uma das estruturas de repetições disponíveis na linguagem que permite a execução de um mesmo comando até que uma determinada condição seja atendida',
+    
+}
+
+
+   
+for i in PYTHON: 
+    print(f'A Palavra {i} Seguinifica -\n {PYTHON[i]}')
